@@ -135,8 +135,20 @@ input:-webkit-autofill:focus {
 .btnSignupTrial2{
     margin-top:10px!important;
     margin: auto;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    border: 5px solid #99e5e0;
+    background-color: #21385b;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: #fff
 }
-
+.btnSignupTrial2 a{
+    color: #fff
+}
 
 .page-title {
     color: #000;
@@ -933,4 +945,50 @@ footer{
     visibility: visible;
   }
              
-  
+  @media only screen and (max-width: 767px) and (min-width: 480px){
+    .play-btn .pulse-border:before {
+        height: 45px;
+        width: 130px;
+        top: 27px;
+        left: 11%;
+    }
+    .play-btn:before {
+        height: 55px;
+        width: 140px;
+        top: 40px;
+        left: 35%;
+    }
+    .play-btn .pulse-border{
+        top: 41px;
+        left: 27%;
+    }
+    .btnSignupTrial{
+        margin-top: -4px;
+        left: -80px;
+    }
+    .anlge-bg{
+        background:url('images/Background-home-06.png') no-repeat scroll center bottom -129px / 250% auto
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .play-btn .pulse-border:before {
+        height: 45px;
+        width: 130px;
+        top: 27px;
+        left: 11%;
+    }
+    .play-btn:before {
+        height: 55px;
+        width: 140px;
+        top: 40px;
+        left: 35%;
+    }
+    .play-btn .pulse-border{
+        top: 41px;
+        left: 27%;
+    }
+    .btnSignupTrial{
+        margin-top: -2px;
+        left: -76px;
+    }
+  }
