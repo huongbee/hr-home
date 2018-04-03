@@ -385,3 +385,27 @@
         margin-top: -150px
     }
 }
+.form{
+    position: relative;
+    margin-top: 18%
+}
+@media only screen and (max-width:1167px){
+    .form{
+        margin-top: 24%
+    }
+}
+@media only screen and (max-width:880px){
+    .form{
+        margin-top: 30%
+    }
+}
+@media only screen and (max-width:710px){
+    .form{
+        margin-top: 40%
+    }
+}
+@media only screen and (max-width:530px){
+    .form{
+        margin-top: 50%
+    }
+}
