@@ -995,3 +995,28 @@ footer{
         left: -76px;
     }
   }
+  .flash {
+    animation-name: flash;
+     animation-duration: .6s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-play-state: running;
+ }
+ 
+ @keyframes flash {
+     from {color: #55A2BE;}
+     to {color: #21385b;}
+ }
+ @-webkit-keyframes blinker {
+    from {opacity: 1;}
+    to {opacity: 0.3;}
+  }
+  .blink{
+      text-decoration: blink;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 0.7s;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-timing-function:ease-in-out;
+      -webkit-animation-direction: alternate;
+  }
